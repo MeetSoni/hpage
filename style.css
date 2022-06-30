@@ -1,0 +1,262 @@
+.active_class {
+    color: green;
+}
+
+.imgbox {
+    width: 150px;
+    height: 70px;
+    margin-top: 10px;
+}
+
+li {
+    line-height: 50px;
+    padding-left: 10px;
+}
+
+.imgbox1 {
+    width: 500px;
+    height: 500px;
+}
+
+.fnt-pacifico {
+    font-family: 'Pacifico', cursive;
+}
+
+.bg-img {
+    background-image: url("https://dicawap.com/assets/images/slider/slider.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.color-skyblue {
+    color: #06bca9;
+}
+
+.iconbox {
+    font-size: 30px;
+    color: white;
+    border: 1px soild white;
+    border: 0px solid white;
+    border-radius: 50%;
+    padding: 20px;
+    background-color: #06bca9;
+}
+
+.hoverimg {
+    background-color: navajowhite;
+    position: relative;
+}
+
+.hoverimg:hover {
+    transform: scale(0.9);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.subbox {
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    top: 265px;
+    left: 60px;
+    margin-top: -14px;
+    z-index: 2;
+}
+
+.font-20 {
+    font-size: 15px;
+}
+
+.box {
+    transform: translateY(-20px);
+}
+
+.buttonbox {
+    background-color: white;
+}
+
+.buttonbox:hover {
+    background-color: blueviolet !important;
+    color: white !important;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.buttonbox:hover a {
+    color: white;
+}
+
+.padding10 {
+    padding: 10px;
+    background-color: white;
+    color: #06bca9;
+}
+
+.bg-lightblue {
+    width: 100%;
+    background-color: #1a1e5d;
+}
+
+.bg-skyblue {
+    background-color: #06bca9;
+    color: white;
+}
+
+.font-30 {
+    font-size: 21px;
+}
+
+.bg-image {
+    background-image: url("https://dicawap.com/assets/images/shapes/borders_shape.png");
+}
+
+.imgbox2 {
+    width: 100px;
+}
+
+.margin-neg {
+    margin-top: -23px;
+}
+
+.login_position {
+    top: 28%;
+    left: 89%;
+}
+
+.login_width {
+    width: 400px;
+}
+
+.login_button {
+    background-color: #06bca9;
+    color: white;
+}
+
+.login_button:hover {
+    background-color: white;
+    color: black;
+}
+
+.about_us_bg-image {
+    background-image: url("https://dicawap.com/assets/images/breadcrumb/Dicawap-About-Us-Digital-Business-Visiting-Card.jpg");
+}
+
+.about_us_box {
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    transform: rotate(45deg);
+    margin-top: -25px;
+}
+
+.about_us_beforebox {
+    position: relative;
+    box-shadow: none;
+}
+
+.about_us_beforebox::before {
+    content: '';
+    width: 100px;
+    height: 100px;
+    border-left: 9px solid #06bca9;
+    border-top: 9px solid #06bca9;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.select_design_bg_img {
+    background-image: url("https://dicawap.com/assets/images/breadcrumb/Dicawap-Select-Design-Digital-Business-Visiting-Card.jpg");
+}
+
+.pricing_bg_img {
+    background-image: url("https://dicawap.com/assets/images/breadcrumb/Dicawap-Pricing-Plan-Digital-Business-Visiting-Card.jpg");
+}
+
+.contact_us_bg_img {
+    background-image: url("https://dicawap.com/assets/images/breadcrumb/Dicawap-Contsct-Us-Digital-Business-Visiting-Card.jpg");
+}
+
+.corosol_imgbox {
+    width: 25%;
+    height: 300px;
+}
+
+.user_button {
+    width: 250px;
+    height: 50px;
+}
+
+.user_img {
+    width: 150px;
+    height: 60px;
+}
+
+.brand_feed_color {
+    background-color: rgb(132, 192, 194);
+}
+
+.imgbox3 {
+    width: 100px;
+    height: 80px;
+}
+
+.mybutton {
+    position: absolute;
+    right: 0;
+    top: -55px;
+}
+
+@media only screen and (max-width:375px) {
+    .imgbox {
+        width: 150px;
+        height: 100px;
+        margin-top: 10px;
+    }
+    .mybutton {
+        position: absolute;
+        right: 0;
+        top: -70px;
+    }
+}
+
+.outer {
+    margin: 50px;
+}
+
+.button {
+    background-color: blue;
+}
+
+.button:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.text {
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    color: black;
+    transition: all .6s ease-out;
+    display: block;
+}
+
+.text:hover {
+    color: white;
+}
+
+@media only screen and (max-width:768px) {
+    .imgbox {
+        width: 150px;
+        height: 110px;
+        margin-top: 10px;
+    }
+    .mybutton {
+        position: absolute;
+        right: 0;
+        top: -70px;
+    }
+}
